@@ -1,10 +1,110 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>My First Test</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<h1>Bavon Agesa.</h1>
-<h2>Bavon Agesa.</h2>
-<h3>Bavon Agesa.</h3>
+<body style="background-color: black; color: white">
+<p style="font-family: 'Calibri Light'; font-weight: bold; color: blue">Effective communication is key to success in both personal and professional relationships. It involves not only expressing thoughts and ideas clearly but also actively listening to others. Clear communication helps avoid misunderstandings and ensures that everyone involved is on the same page, fostering collaboration and mutual respect. In the workplace, strong communication skills are essential for teamwork, project management, and problem-solving. Additionally, the ability to adapt communication styles to different audiences can greatly enhance the impact of a message, making it more likely to resonate and achieve the desired outcome.</p>
+<ol>
+    <li>mr</li>
+   <li>mr</li>
+    <li>mr</li>
+</ol>
+<ul>
+    <li>you</li>
+        <li>you</li>
+    <li>you</li>
+
+</ul>
+<h1>heading 1</h1>
+<h6>heading 6</h6>
+<blockquote>Effective communication is key to success in both personal and professional relationships. It involves not only expressing thoughts and ideas clearly but also actively listening to others. Clear communication helps avoid misunderstandings and ensures that everyone involved is on the same page, fostering collaboration and mutual respect. In the workplace, strong communication skills are essential for teamwork, project management, and problem-solving. Additionally, the ability to adapt communication styles to different audiences can greatly enhance the impact of a message, making it more likely to resonate and achieve the desired outcome.</blockquote>
+<button>Click me</button>
+<button id="btnsubmit">submit me</button>
+<style>
+    button{
+        background-color: green;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    #btnsubmit{
+       background-color: blue;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .table{
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+        font-family: Cambria;
+    }
+    td{
+       text-align: center;
+        padding: 10px;
+        border: 1px solid grey;
+    }
+</style>
+<img src="assets/logo.jpg" width="200" height="200"/>
+<table class="table">
+    <thead>
+    <th>position</th>
+        <th>name</th>
+    <th>points</th>
+
+    </thead>
+    <tbody>
+    <tr>
+        <td>23</td>
+                <td>sofapaka</td>
+        <td>23</td>
+
+    </tr>
+    <tr>
+        <td>23</td>
+                <td>gor</td>
+        <td>23</td>
+
+    </tr>
+    <tr>
+        <td>23</td>
+                <td>leopards</td>
+        <td>23</td>
+
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">total ticket pricing</td>
+        <td>$5.50</td>
+    </tr>
+    </tfoot>
+</table>
+<form method="POST">
+    <label>team name</label>
+    <input type="text" placeholder="enter team name" name="team_name"/>
+    <label>season points</label>
+    <input type="number" placeholder="enter points" name="team_points"/>
+    <label>team email</label>
+    <input type="email" placeholder="enter team email" name="team_email"/>
+    <label>team picture</label>
+    <input type="file" name="team_pic"/>
+        <label>color</label>
+    <select name="team_color">
+        <option value="red">red</option>
+        <option value="red">red</option>
+        <option value="red">red</option>
+    </select>
+    <input type="submit" value="submit team"/>
+        <input type="reset" value="reset form"/>
+
+
+
+</form>
 </body>
 </html>
