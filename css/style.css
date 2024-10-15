@@ -20,8 +20,8 @@ input[type="reset"],
 select{
     width: 100%;
     padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 4px;
+    margin-bottom: 10px;
+    border-radius: 8px;
 }
 input[type="submit"]{
     background-color: blue;
